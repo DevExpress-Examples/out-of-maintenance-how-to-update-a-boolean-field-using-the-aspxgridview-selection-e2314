@@ -7,6 +7,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to update a Boolean field using the ASPxGridView selection
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e2314/)**
+<!-- run online end -->
 
 
 <p>The example demonstrates how to bind a Boolean field with the ASPxGridView selection.</p><p>The complex OnSelectionChanged event is used to prevent the grid from sending two simultaneous callbacks when the <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewASPxGridViewBehaviorSettings_AllowMultiSelectiontopic">ASPxGridViewBehaviorSettings.AllowMultiSelection</a> property is used. There are two callbacks in this case:<br />
