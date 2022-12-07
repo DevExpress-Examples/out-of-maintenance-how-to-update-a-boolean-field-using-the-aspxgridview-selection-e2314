@@ -6,8 +6,7 @@ Imports System.Web
 Imports System.Web.UI
 Imports System.Web.UI.WebControls
 Imports DevExpress.Xpo
-Imports DevExpress.Web.ASPxEditors
-Imports DevExpress.Web.ASPxGridView
+Imports DevExpress.Web
 
 Partial Public Class _Default
 	Inherits System.Web.UI.Page
@@ -17,7 +16,7 @@ Partial Public Class _Default
 		xds.Session = session
 	End Sub
 
-	Protected Sub cb_Callback(ByVal source As Object, ByVal e As DevExpress.Web.ASPxCallback.CallbackEventArgs)
+	Protected Sub cb_Callback(ByVal source As Object, ByVal e As DevExpress.Web.CallbackEventArgs)
 		Dim p() As String = e.Parameter.Split("|"c)
 
 		Dim active As Boolean = Convert.ToBoolean(p(1))
